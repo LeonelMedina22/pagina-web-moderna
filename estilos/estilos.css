@@ -3,21 +3,44 @@ body {
 }
 
 P {
-    font-size: 20 PX;              /*AGRANDA EL PARRAFO*/
+    font-size: 20 PX;                                /*AGRANDA EL PARRAFO*/
 }
 
-li {
-    list-style: none;              /*BORRA LOS ESTILOS DE LA LISTA*/
-margin-right: 25px;               /*ME DA UN ESPACIADO HACIA LA DERECHA*/
+li { 
+    list-style: none;                                /*BORRA LOS ESTILOS DE LA LISTA*/
+margin-right: 25px;                                  /*ME DA UN ESPACIADO HACIA LA DERECHA*/
 
 }
 
 .menu {
-    display: flex;                 /*SIRVE PARA PONER LOS ELEMENTOS UNO AL LADO DEL OTRO*/
-justify-content: space-between;    /*ESTO SIRVE PARA JUSTIFICAR EL CONTENIDO Y SPACE BETWEEN ME LOS SEPARA EN UNA PUNTA A CADA UNO*/
-align-items: center;               /*ALINEA LOS ELEMENTOS, EN ESTE CASO DEL MENU*/
+    display: flex;                                   /*SIRVE PARA PONER LOS ELEMENTOS UNO AL LADO DEL OTRO*/
+justify-content: space-between;                      /*ESTO SIRVE PARA JUSTIFICAR EL CONTENIDO Y SPACE BETWEEN ME LOS SEPARA EN UNA PUNTA A CADA UNO*/
+align-items: center;                                 /*ALINEA LOS ELEMENTOS, EN ESTE CASO DEL MENU*/
 }
 
 .lista {
     display: flex;
+}
+
+a {
+    text-decoration: none;                           /*ESTE CODIGO LO QUE HACE ES SACARLE EL SUBRAYADO A MI "A" */
+    font-size: 14px;                                 /*SIRVE PARA AGRANDAR EL TEXTO*/
+    background: #5cb8ff;                           /*SIRVE PARA DARLE COLOR DE FONDO*/
+    padding: 20PX 30PX 20PX 30PX;                    /*ES EL ESPACIADO INTERNO DE TU ELEMENTO*/
+    color: white;                                  /*LE DA COLOR A TU TEXTO*/
+}
+
+.titular {
+    text-align: center;                              /*ESTO SIRVE PARA ALINEAR EL TEXTO CENTRADO*/
+    margin-top: 200px;                               /*SIRVE PARA BAJAR UN ELEMENTO*/
+}
+
+h1 {
+    font-size: 60px;                                 /*SIRVE PARA AGRANDAR EL TEXTO*/
+    margin: 0;                                       /*ESTE MARGIN SIRVE PARA PONER MAGEN A LOS 4 LADOS, TOP, BUTTON, RIGHT, LEFT. LE SACA LO NARANJA SI TE FIJAS EN INSPECCIONAR*/ 
+}
+
+h2 {
+    font-size: 25px;                                 /*SIRVE PARA AGRANDAR EL TEXTO*/
+    margin-bottom: 40px;                             /*ESTE MARGIN BOTTOM SIRVE PARA DARLE MARGEN HACIA ABAJO.
 }
