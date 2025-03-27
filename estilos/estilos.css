@@ -60,3 +60,28 @@ header {
     margin: auto;
 }
 
+/*ARRANCA LA SECCION SOBRE NOSOTROS*/
+
+H3 {
+    text-align: center;
+    font-size: 55px;
+    font-weight: normal;
+}
+
+.contenedor-sobre-nosotros{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contenedor-parrafo-y-boton {
+    width: 42%;
+}
+
+.contenedor-parrafo-y-boton p {
+    font-size: 18px;
+}
+
+.parrafo-final {
+    margin-bottom: 30px;
+}
