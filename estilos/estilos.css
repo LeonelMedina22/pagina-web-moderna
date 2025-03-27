@@ -1,7 +1,23 @@
+body {
+    font-family: "Poppins", sans-serif;
+}
+
 P {
     font-size: 20 PX;              /*AGRANDA EL PARRAFO*/
 }
 
 li {
     list-style: none;              /*BORRA LOS ESTILOS DE LA LISTA*/
+margin-right: 25px;               /*ME DA UN ESPACIADO HACIA LA DERECHA*/
+
+}
+
+.menu {
+    display: flex;                 /*SIRVE PARA PONER LOS ELEMENTOS UNO AL LADO DEL OTRO*/
+justify-content: space-between;    /*ESTO SIRVE PARA JUSTIFICAR EL CONTENIDO Y SPACE BETWEEN ME LOS SEPARA EN UNA PUNTA A CADA UNO*/
+align-items: center;               /*ALINEA LOS ELEMENTOS, EN ESTE CASO DEL MENU*/
+}
+
+.lista {
+    display: flex;
 }
