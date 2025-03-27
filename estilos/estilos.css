@@ -85,3 +85,41 @@ H3 {
 .parrafo-final {
     margin-bottom: 30px;
 }
+
+
+/*ARRANCA SECCION SERVICIOS*/
+
+.contenedor-servicios {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.servicio {
+    width: 25%;
+    padding: 50px 38px 50px 38px;
+    border-radius: 10px;                               /*TE DA EL BORDE REDONDEADO DE TU ELEMENTO*/
+    margin-bottom: 40PX;                               /*TE DA UN MARGEN HACIA ABAJO*/
+    color: white;
+}
+
+.violeta {
+    background: #5055df;
+}
+
+.celeste {
+    background: #40a8fa;
+}
+
+.servicio h4 {
+    font-size: 30px;
+    margin: 0;
+}
+
+.servicio img {
+    float: right;
+}
+
+.servicio p {
+    font-size: 18px;
+}
