@@ -1,5 +1,7 @@
 body {
     font-family: "Poppins", sans-serif;
+    margin: 0px;
+    padding: 0px;
 }
 
 P {
@@ -37,10 +39,24 @@ a {
 
 h1 {
     font-size: 60px;                                 /*SIRVE PARA AGRANDAR EL TEXTO*/
-    margin: 0;                                       /*ESTE MARGIN SIRVE PARA PONER MAGEN A LOS 4 LADOS, TOP, BUTTON, RIGHT, LEFT. LE SACA LO NARANJA SI TE FIJAS EN INSPECCIONAR*/ 
+    margin: 0;                                      /*ESTE MARGIN SIRVE PARA PONER MAGEN A LOS 4 LADOS, TOP, BUTTON, RIGHT, LEFT. LE SACA LO NARANJA SI TE FIJAS EN INSPECCIONAR*/ 
 }
 
 h2 {
     font-size: 25px;                                 /*SIRVE PARA AGRANDAR EL TEXTO*/
-    margin-bottom: 40px;                             /*ESTE MARGIN BOTTOM SIRVE PARA DARLE MARGEN HACIA ABAJO.
+    margin-bottom: 40px;                             /*ESTE MARGIN BOTTOM SIRVE PARA DARLE MARGEN HACIA ABAJO.*/
 }
+
+header {
+    background: url(../imagenes/fondo.jpg);          /*ESTE BACKGROUND AGREGA UNA IMAGEN, EN ESTE CASO A MI HEADER */
+    height: 100VH;                                   /*ESTE VH UTILIZA EN ESTE CASO EL 100% DEL TAMAÑO DE TU VENTANA DE NAVEGADOR*/
+    background-size: cover;                          /*ESTE CODIGO HACER QUE UBICA EL FONDO DE UNA MANERA TAL QUE SE ADAPTE A LA VENTANA*/
+    background-position: center;                     /*SIRVE PARA COLOCAR LA IMAGEN DE FONDO EN EL CENTRO DE SU CONTENEDOR. ESTO SIGNIFICA QUE EL PUNTO CENTRAL DE LA IMAGEN COINCIDIRA CON EL CENTRO DEL ELEMENTO AL QUE SE APLICA.*/
+    }
+
+.contenedor {
+    max-width: 1280px;                               /*LE DA EL MAXIMO DE ANCHO A TU PAGINA*/
+    width: 90%;                                      
+    margin: auto;
+}
+
