@@ -1,0 +1,7 @@
+P {
+    font-size: 20 PX;              /*AGRANDA EL PARRAFO*/
+}
+
+li {
+    list-style: none;              /*BORRA LOS ESTILOS DE LA LISTA*/
+}
