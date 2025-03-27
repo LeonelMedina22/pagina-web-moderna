@@ -97,11 +97,12 @@ H3 {
 }
 
 .servicio {
-    width: 25%;
-    padding: 50px 38px 50px 38px;
+    width: 24%;
+    padding: 34px 30px 38px 30px;
     border-radius: 10px;                               /*TE DA EL BORDE REDONDEADO DE TU ELEMENTO*/
     margin-bottom: 40PX;                               /*TE DA UN MARGEN HACIA ABAJO*/
     color: white;
+    position: relative;
 }
 
 .violeta {
@@ -238,3 +239,111 @@ a:hover {
     top: 85%;
     right: 1%;
 }
+
+.menu-icon {
+    display: none;
+}
+
+@media (max-width: 800px) {
+
+    .menu-icon {
+      display: block;
+    float: right;
+    width: 37px;
+    height: 25px;
+    margin-top: 0px;
+    }
+    
+    header nav {
+      position: absolute;
+      top: 83px;
+      left: 0;
+      height: 268px;
+      background: #5cb8ff;
+      width: 100%;
+      display: none;
+    }
+    
+    header nav ul {
+      flex-direction: column;
+    }
+    
+    header nav ul li {
+      margin-bottom: 15px;
+    }
+    
+    h1 {
+      font-size: 44px;
+    }
+    
+    h2 {
+      font-size: 19px;
+    }
+    
+    #sobre-mi .contenedor-sobre-nosotros {
+        flex-direction: column;
+    }
+    
+    #sobre-mi img {
+      width: 100%;
+    }
+    
+    #sobre-mi .texto {
+        width: 100%;
+    }
+    
+    .contenedor-servicios {
+        flex-direction: column;
+    }
+    
+    .servicio {
+      width: 82%;
+      padding: 34px 30px 69px 30px;
+    }
+    
+    .icono {
+        margin-top: 23px;
+    }
+    
+    h3 {
+      font-size: 43px;
+    }
+    
+    .contenedor-trabajar {
+        flex-direction: column;
+    }
+    
+    .item ul {
+        padding: 0;
+    }
+    
+    #blog .contenedor-publicaciones {
+        flex-direction: column;
+    }
+    
+    #blog .publicacion {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    
+    }
+    
+    @media (min-width: 600px) and (max-width:800px) {
+      header {
+        height: 70vh;
+      }
+    
+      .servicio {
+        width: 57%;
+        padding: 34px 30px 69px 30px;
+        margin: auto;
+        margin-bottom: 45px;
+    }
+    
+    #blog .publicacion {
+        width: 71%;
+        margin: auto;
+        margin-bottom: 40px;
+    }
+    
+    }
