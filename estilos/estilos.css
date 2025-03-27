@@ -122,4 +122,14 @@ H3 {
 
 .servicio p {
     font-size: 18px;
+    height: 200px;
+}
+
+span {
+    font-size: 80px;
+    color: blue;
+}
+
+.owl-nav {
+    text-align: center;
 }
