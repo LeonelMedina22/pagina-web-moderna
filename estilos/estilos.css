@@ -29,7 +29,8 @@ a {
     font-size: 14px;                                 /*SIRVE PARA AGRANDAR EL TEXTO*/
     background: #5cb8ff;                           /*SIRVE PARA DARLE COLOR DE FONDO*/
     padding: 20PX 30PX 20PX 30PX;                    /*ES EL ESPACIADO INTERNO DE TU ELEMENTO*/
-    color: white;                                  /*LE DA COLOR A TU TEXTO*/
+    color: white;   
+    transition: 1s;               /*LE DA COLOR A TU TEXTO*/
 }
 
 .titular {
@@ -200,4 +201,33 @@ span {
 
 .primer-parrafo {
     padding: 0px 20px 20px 20px !important;
+}
+
+#que-esperas {
+    background: linear-gradient(rgba(84,93,220,.94),rgba(96,171,245,.9));
+text-align: center;
+padding: 50px 0 50px 0;
+}
+
+#que-esperas h3 {
+    font-size: 23px;
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+#que-esperas a {
+    padding: 15px 45px 15px 45px;
+    transition: 1s;
+}
+
+#que-esperas a:hover {
+    color: black;
+    transition: 1s;
+    transform: scale(1.4);
+    display: inline-block;
+}
+
+a:hover {
+    color: black;
+    transition: 1s;
 }
