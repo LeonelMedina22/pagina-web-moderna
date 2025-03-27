@@ -231,3 +231,10 @@ a:hover {
     color: black;
     transition: 1s;
 }
+
+#whatsapp a {
+    background: none;
+    position: fixed;
+    top: 85%;
+    right: 1%;
+}
