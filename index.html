@@ -44,7 +44,7 @@
     <section>
         <h3>Sobre Nosotros</h3>
         <div class="contenedor-sobre-nosotros">
-        <img src="imagenes/logito.png" alt="" title="lymlogic">
+        <img class="sobre-nosotros" src="imagenes/logito.png" alt="" title="lymlogic">
         <div class="contenedor-parrafo-y-boton">
         <p>En Lymlogic, combinamos experiencia y creatividad para ofrecer soluciones informáticas personalizadas que se adaptan a las necesidades de cada cliente.</p>
         <p>Como programador comprometido con la excelencia, transformo ideas en realidades digitales, optimizando procesos y creando herramientas tecnológicas innovadoras que impulsan el éxito de tu negocio.</p>
@@ -55,11 +55,9 @@
     </section>
 
     <section>
-        
+       
             <h3>Servicios</h3>
-
-
-
+<div class="contenedor-servicios">
             <div class="servicio violeta">
                 <h4>Diseño Web</h4>
                 <p>Paginas web atractivas y funcionales con el objetivo de satisfacer todas sus expectativas. La importancia del diseño es fundamental para tener exito y atraer a tus visitantes. Tambien lo es la velocidad de carga del sitio web, deben ser rapidos para que el visitante tenga la mejor experiencia</p>
@@ -92,7 +90,7 @@
             </div>
 
         </div>
-        
+    
     </section>
 
     <section>
@@ -198,6 +196,11 @@ $('.menu-icon').click(function(){
 $('header nav').slideToggle
 
 
+})
+
+$('.menu-icon').click(function(){
+$('header nav').slideToggle();
+    
 })
 
       </script>
