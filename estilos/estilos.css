@@ -33,6 +33,19 @@ a {
     transition: 1s;               /*LE DA COLOR A TU TEXTO*/
 }
 
+nav a {
+    text-decoration: none; /* Esto elimina el subrayado */
+    font-size: 14px; /* Tamaño de fuente */
+    background: none; /* Sin color de fondo */
+    padding: 0; /* Espaciado interno */
+    color: inherit; /* Hereda el color del elemento padre */
+    transition: none; /* Desactiva la transición */
+}
+
+nav a:hover {
+    color: white;
+}
+
 .titular {
     text-align: center;                              /*ESTO SIRVE PARA ALINEAR EL TEXTO CENTRADO*/
     margin-top: 200px;                               /*SIRVE PARA BAJAR UN ELEMENTO*/
@@ -343,4 +356,29 @@ h3 {
     width: 50%;
 }
 
+}
+
+.contenedor-info {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Espacio entre elementos */
+}
+
+.redes-sociales {
+    display: flex;
+    gap: 10px; /* Espacio entre los íconos de redes sociales */
+}
+
+.redes-sociales a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #000; /* Cambia el color según tu diseño */
+}
+
+.whatsapp {
+    position: absolute;
+    top: 50%; /* Ajusta según la posición deseada */
+    right: 0px; /* Coloca el ícono a la derecha */
+    transform: translateY(-50%);
 }
